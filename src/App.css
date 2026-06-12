@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #008cff;
+    --secondary-color: #00c2ff;
+    --background-color: #f4f8fb;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: var(--background-color);
+}
+
+/* Navbar */
+
+.navbar-custom {
+    background: linear-gradient( 90deg, var(--primary-color), var(--secondary-color) );
+}
+
+/* Auth Pages */
+
+.auth-page {
+    min-height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url("https://images.unsplash.com/photo-1488646953014-85cb44e25828");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-card {
+    width: 420px;
+    background: white;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+
+.hero-section {
+    height: 320px;
+    border-radius: 25px;
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+/* Cards */
+
+.travel-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+    background: white;
+}
+
+    .travel-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    }
+
+    .travel-card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+/* Weather Cards */
+
+.weather-card {
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
+    background: white;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Trip Cards */
+
+.trip-card {
+    border: none;
+    border-radius: 20px;
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Buttons */
+
+.btn-travel {
+    background: linear-gradient( 90deg, var(--primary-color), var(--secondary-color) );
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+    .btn-travel:hover {
+        color: white;
+        opacity: 0.9;
+    }
+
+/* Page Container */
+
+.page-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Section Titles */
+
+.page-title {
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #222;
+}
