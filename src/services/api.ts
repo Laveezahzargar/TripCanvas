@@ -19,6 +19,3 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
-
-
-//https:||localhost:7000/api
